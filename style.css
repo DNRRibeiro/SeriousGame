@@ -1,0 +1,115 @@
+/*\projetor\style.css*/
+
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  
+  .main {
+    display: flex;
+    flex: 1;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #34495e;
+    padding: 1rem;
+  }
+  
+  .menu-button {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: #ba0d0d;
+    border: none;
+    border-radius: 5px;
+    text-align: left;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .menu-button:hover {
+    background-color: #752727;
+  }
+  
+  .conteudo {
+    flex: 1;
+    padding: 2rem;
+    background-color: #ecf0f1;
+  }
+
+  h2{
+    margin-top: 0.5cm;
+    margin-bottom: 1cm;
+  }
+
+  .video-container {
+    margin-bottom: 5cm;
+    text-align: center;
+  }
+
+  input[type="text"] {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+  }
+
+  .avanco{
+    margin-left:1.5cm
+  }
+
+  
+  .linha-correta {
+    background-color: #d4edda; /* verde claro */
+    border: 2px solid #28a745;
+  }
+  
+  .linha-errada {
+    background-color: #f8d7da; /* vermelho claro */
+    border: 2px solid #dc3545;
+  }
+
+  #progresso-container {
+    max-width: 800px;       /* Largura máxima da barra */
+    margin: 1rem auto;       /* Centraliza e dá margem vertical */
+    padding: 0 1rem;         /* Espaço interno à esquerda e direita */
+    text-align: center;      /* Centraliza o texto "Progresso:" e o número */
+  }
+  
+  #barra-progresso {
+    width: 100%;             /* Ocupa toda a largura do container */
+    height: 20px;
+    border-radius: 10px;     /* Cantos arredondados */
+    overflow: hidden;
+  }
+  
+  /* Estilo opcional para a parte preenchida da barra */
+  progress::-webkit-progress-bar {
+    background-color: #eee;
+    border-radius: 10px;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #4CAF50;
+    border-radius: 10px;
+  }
+  
+  progress::-moz-progress-bar {
+    background-color: #4CAF50;
+  }
+  
