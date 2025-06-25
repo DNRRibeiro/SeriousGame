@@ -1,0 +1,64 @@
+/*\projetor\css\header.css*/
+.header-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #1f2937;
+    color: white; 
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .header-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-header {
+    height: 60px;
+    width: auto;
+  }
+  
+  .header-esquerda h1 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  .header-centro h1 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 6px;
+  }
+  
+  .user-info p {
+    text-align: right;
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .menu-button-header {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px 20px; /* Aumentado */
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;      /* Aumentado */
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 140px;         /* Largura fixa para consistência */
+    text-align: center;
+  }
+  
+  .menu-button-header:hover {
+    background-color: #dc2626;
+  }
+  

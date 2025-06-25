@@ -1,0 +1,67 @@
+/*\projetor\css\conteudo.css*/
+
+body {
+    font-family: 'Poppins', 'Segoe UI', sans-serif;
+    background-color: #f9fafb;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* === BOTÕES PADRÃO === */
+  button,
+  .menu-button,
+  .btn-submeter,
+  nav a,
+  nav button,
+  .logout-button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover,
+  .menu-button:hover,
+  .btn-submeter:hover,
+  nav a:hover,
+  nav button:hover,
+  .logout-button:hover {
+    background-color: #2980b9;
+  }
+  
+  /* === TABELAS UNIFORMIZADAS === */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin-top: 1rem;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  }
+  
+  th, td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #eee;
+  }
+  
+  thead {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f1f1;
+  }

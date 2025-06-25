@@ -1,0 +1,87 @@
+/*\projetor\css\painel.css*/
+/* Layout da página */
+
+/* Conteúdo principal */
+main.conteudo {
+  flex: 1;
+  padding: 2rem;
+  background-color: white;
+}
+
+main h2 {
+  color: #111827;
+  font-size: 22px;
+}
+
+
+
+/* === Layout principal para páginas de painel com nav lateral === */
+.painel-admin {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  padding: 1rem;
+  align-items: flex-start;
+}
+
+/* === Navegação lateral === */
+.painel-admin nav {
+  background-color: #f5f5f5;
+  padding: 1rem;
+  min-width: 220px;
+  border-right: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.painel-admin nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.painel-admin nav ul li {
+  margin-bottom: 12px;
+}
+
+.painel-admin nav a,
+.painel-admin nav button {
+  display: block;
+  background-color: #0b324d;
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.2s ease;
+}
+
+.painel-admin nav a:hover,
+.painel-admin nav button:hover {
+  background-color: #0b324d;
+}
+
+/* === Conteúdo principal === */
+.painel-admin .conteudo {
+  flex: 1;
+  padding: 1.5rem;
+  background-color: white;
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.05);
+}
+
+.layout-flex {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+
+
+main.conteudo {
+  flex: 1;
+  padding: 20px;
+}
+
+
+

@@ -1,0 +1,96 @@
+/*\projetor\css\listar_todos_exercicios.css*/
+/* === Layout Principal com nav lateral === */
+.painel-admin {
+  display: flex;
+  flex: 1;
+  min-height: calc(100vh - 130px); /* header (60px) + footer (~70px) */
+}
+
+
+
+/* Informações do utilizador no topo do nav */
+.user-info {
+  margin-bottom: 2rem;
+}
+
+.user-info p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #f7f9fb;
+}
+
+/* Estilo dos botões do menu lateral */
+.menu-button {
+  display: block;
+  background-color: #3b82f6;
+  color: white;
+  text-align: center;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-bottom: 12px;
+  transition: background-color 0.3s ease;
+}
+
+.menu-button:hover {
+  background-color: #2563eb;
+}
+
+/* === Conteúdo Principal === */
+main.conteudo {
+  flex: 1;
+  padding: 2rem;
+  background-color: white;
+  min-height: 100%;
+}
+
+
+/* Título das famílias */
+.familia-exercicios h2 {
+  margin-bottom: 1rem;
+  color: #111827;
+  font-size: 20px;
+}
+
+/* Lista de exercícios */
+.exercicios-lista {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 2rem;
+}
+
+/* Botões de exercícios pendentes */
+.botao-pendente {
+  background-color: #ef4444; /* vermelho */
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.botao-pendente:hover {
+  background-color: #dc2626;
+}
+
+/* Botões de exercícios concluídos */
+.botao-feito {
+  background-color: #10b981; /* verde */
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.botao-feito:hover {
+  background-color: #059669;
+}

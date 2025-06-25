@@ -1,0 +1,134 @@
+/*\projetor\css\listar_familias.css*/
+/* === Container de cada bloco de família === */
+.familia-bloco {
+  max-width: 1000px;
+  margin: 30px auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Título da família */
+.familia-bloco h3 {
+  margin-bottom: 10px;
+  color: #1f2937;
+  font-size: 22px;
+  text-align: left;
+}
+
+/* Descrição da família */
+.familia-bloco p {
+  margin-bottom: 20px;
+  color: #374151;
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+/* === Tabela de exercícios === */
+.tabela-exercicios {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Cabeçalho da tabela */
+.tabela-exercicios thead {
+  background-color: #4a90e2;
+  color: white;
+}
+
+/* Células */
+.tabela-exercicios th,
+.tabela-exercicios td {
+  padding: 14px 18px;
+  text-align: left;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+/* Linhas alternadas */
+.tabela-exercicios tbody tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+/* Hover na linha */
+.tabela-exercicios tbody tr:hover {
+  background-color: #f3f4f6;
+}
+
+/* === Botões de ação === */
+.tabela-exercicios .btn {
+  padding: 6px 12px;
+  font-size: 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.tabela-exercicios .btn-editar {
+  background-color: #3b82f6;
+}
+
+.tabela-exercicios .btn-editar:hover {
+  background-color: #2563eb;
+}
+
+.tabela-exercicios .btn-excluir {
+  background-color: #ef4444;
+}
+
+.tabela-exercicios .btn-excluir:hover {
+  background-color: #dc2626;
+}
+
+/* === Responsividade === */
+@media (max-width: 768px) {
+  .familia-bloco {
+    padding: 20px;
+  }
+
+  .tabela-exercicios th,
+  .tabela-exercicios td {
+    padding: 10px;
+    font-size: 13px;
+  }
+}
+
+  
+  .btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+  }
+  
+  .btn-editar {
+    background-color: #3b82f6;
+  }
+  
+  .btn-editar:hover {
+    background-color: #2563eb;
+  }
+  
+  .btn-excluir {
+    background-color: #ef4444;
+  }
+  
+  .btn-excluir:hover {
+    background-color: #dc2626;
+  }
+
+
+
+  

@@ -1,0 +1,44 @@
+/*\projetor\listas\tabelas.css*/
+/* Estilos para tabelas em geral */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  th, td {
+    padding: 0.9rem 1.2rem;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 0.95rem;
+  }
+  
+  tbody tr:hover {
+    background-color: #f1f8ff;
+  }
+  
+  tbody tr:last-child td {
+    border-bottom: none;
+  }
+  
+  th {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+  }
+  
+  td {
+    color: #333;
+  }
+  

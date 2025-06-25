@@ -1,0 +1,192 @@
+/*\projetor\css\dash_aluno.css*/
+
+/* === Reset básico === */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9fafb;
+  }
+  
+  /* === Wrapper principal === */
+  .pagina-flex {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* === Cabeçalho === */
+  .header-principal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: white;
+    padding: 16px 24px;
+    border-bottom: 3px solid #3b82f6;
+  }
+  
+  .header-esquerda {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .logo-header {
+    height: 50px;
+    width: auto;
+  }
+  
+  .header-centro h1 {
+    font-size: 22px;
+    margin: 0;
+    text-align: center;
+  }
+  
+  .user-info {
+    text-align: right;
+  }
+  
+  .user-info p {
+    margin: 2px 0;
+    font-size: 14px;
+  }
+  
+  .menu-button-header {
+    margin-top: 6px;
+    background-color: #ef4444;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .menu-button-header:hover {
+    background-color: #dc2626;
+  }
+  
+  /* === Estrutura principal === */
+  .dashboard-container {
+    flex: 1;
+    display: flex;
+  }
+  
+  /* === Barra lateral === */
+  .sidebar {
+    width: 250px;
+    background-color: #f3f4f6;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+  }
+  
+  .sidebar h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #1f2937;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+  }
+  
+  .sidebar li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul ul {
+    padding-left: 15px;
+  }
+  
+  .sidebar a {
+    display: block;
+    background-color: #3b82f6;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .sidebar a:hover {
+    background-color: #2563eb;
+  }
+  
+  /* === Conteúdo principal === */
+  main.conteudo {
+    flex: 1;
+    padding: 2rem;
+    background-color: white;
+  }
+  
+  main h2, main h3 {
+    margin-bottom: 1rem;
+    color: #1f2937;
+  }
+  
+  /* === Barra de progresso === */
+  #progresso-container {
+    margin-bottom: 2rem;
+  }
+  
+  #barra-progresso {
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    appearance: none;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: #e5e7eb;
+    border-radius: 10px;
+  }
+  
+  progress::-webkit-progress-value {
+    background-color: #10b981;
+    border-radius: 10px;
+  }
+  
+  progress::-moz-progress-bar {
+    background-color: #10b981;
+  }
+  
+  /* === Tabela de histórico === */
+  .tabela-pontos {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .tabela-pontos th, .tabela-pontos td {
+    border: 1px solid #d1d5db;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .tabela-pontos th {
+    background-color: #1f2937;
+    color: white;
+  }
+  
+  .tabela-pontos tr:nth-child(even) {
+    background-color: #f3f4f6;
+  }
+  
+  /* === Rodapé === */
+  footer {
+    margin-top: auto;
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-top: 2px solid #3b82f6;
+  }

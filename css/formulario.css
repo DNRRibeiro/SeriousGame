@@ -1,0 +1,90 @@
+/*\projetor\css\formulario.css*/
+
+/* Container principal do conteúdo */
+.conteudo {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  flex-grow: 1;
+}
+
+/* Estilo geral dos formulários */
+form {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  max-width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Labels */
+form label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+/* Inputs e selects */
+form input[type="text"],
+form input[type="email"],
+form input[type="password"],
+form select,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+/* Botão */
+.menu-button,
+form button {
+  background-color: #0077cc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.menu-button:hover,
+form button:hover {
+  background-color: #005fa3;
+}
+
+/* Mensagem de feedback */
+form p {
+  margin-bottom: 1rem;
+  font-weight: bold;
+}
+
+/* Garante que o layout se expanda horizontalmente com nav e main lado a lado */
+.layout-flex {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+}
+
+/* Nav fixo lateral */
+.layout-flex nav {
+  width: 250px;
+  background-color: #f3f4f6;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  flex-shrink: 0;
+}
+
+/* Conteúdo principal ao lado do nav */
+.layout-flex main.conteudo {
+  flex-grow: 1;
+  padding: 2rem;
+  background-color: #ffffff;
+  overflow: auto;
+}
